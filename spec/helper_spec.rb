@@ -12,8 +12,8 @@ RSpec.configure do |config|
     @driver = Appium::Driver.new(caps)
     @driver.start_driver
     job_id = @driver.session_id
-    SauceWhisk.username = @driver.sauce_username # "maor_hayun"
-    SauceWhisk.access_key= @driver.sauce_access_key # "e5c912ff-202b-44b8-be8d-94012cf6b943"
+    SauceWhisk.username = @driver.sauce_username
+    SauceWhisk.access_key= @driver.sauce_access_key 
     begin
       example.run
     ensure
