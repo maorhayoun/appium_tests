@@ -1,0 +1,11 @@
+[caps]
+appiumVersion = "1.3.4"
+platformName = "Android"
+platformVersion = "5.0"
+deviceName = "Android Emulator"
+app = "sauce-storage:HelloWorldApp.apk" #"https://s3-us-west-2.amazonaws.com/test-appium/app-debug.apk"
+name = "HelloWorldApp.apk [Android][5.0][PROD]"
+
+#[appium_lib]
+#sauce_username = ...
+#sauce_access_key = ...
